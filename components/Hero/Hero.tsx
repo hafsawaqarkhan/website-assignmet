@@ -4,7 +4,8 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <h2>Welcome to the Hero Section</h2>
-      <p>My name is Hafsa Khan . I am 18 years old.
+      < p className = {styles.para}> My name is Hafsa Khan . I am 18 years old.<br></br>
+        I have currently started my developer journey.
       </p>
     </section>
   );
